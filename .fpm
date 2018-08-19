@@ -1,0 +1,9 @@
+-C ocla_install
+--prefix /fsnadmin/CAS/ocla_install
+--rpm-summary "OCLA/Harvester Cron Install RPM"
+--description "This RPM is used to install the cronjob to run harvester.sh"
+--license "MIT"
+--url "https://ctbigdatahubvippr01.pr.rightnow.com/git/OCBD-Ops/ocla_install"
+--rpm-user root
+--rpm-group root
+--rpm-attr "0755,root,root:/fsnadmin/CAS/ocla_install"
