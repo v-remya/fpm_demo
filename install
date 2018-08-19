@@ -3,3 +3,5 @@ yum install ruby-devel gcc make rpm-build rubygems
 gem install --no-ri --no-rdoc fpm
 
 fpm --version
+
+fpm -s dir -t rpm -C hello/ --name hello_test --version 1.0.0 --iteration 1 --description "A sample package" .
